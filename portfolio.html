@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fares Adda</title>
+    <link rel="stylesheet" href="portfolio.css">
+
+    <meta property="og:title" content="Portfolio">
+    <meta property="og:description" content="Developer Fares Adda's portfolio">
+    <meta property="og:image" content="logo.png">
+    <meta property="og:url" content="https://faresadda.com">
+    <meta property="og:type" content="website">
+
+    <meta name="author" content="Fares Adda">
+    <meta name="description" content="Web developer">
+    <meta name="keywords" content="fares,adda,web,development,coding,portfolio,html,css,js">
+    <meta name="robots" content="index, follow">
+
+    <link rel="icon" href="icon.png">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="navbar" id="navbar">
+            <img src="logo.png">
+            <ul id="list">
+                <li class="home" onclick="del()"><a href="#">Home</a></li>
+                <li onclick="del()"><a href="#skills">Skills</a></li>
+                <li onclick="del()"><a href="#projects">Projects</a></li>
+                <li onclick="del()"><a href="#contact">Contact</a></li>
+            </ul>
+            <i class="fa-solid fa-bars" id="listicon"></i>
+            <i class="fa-solid fa-xmark" id="xmark"></i>
+        </div>
+
+        <div class="header">
+            <div class="headerdiv">
+              <div class="title">
+                <h1>Hi I'm <span>Fares Adda</span>,<br>Front-End developer</h1>
+                <a class="btn" href="#aboutme">Learn more about me</a>
+              </div>
+              <div class="media">
+                <a href="https://www.facebook.com/profile.php?id=61571967693139" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/faresaddadev?igsh=MXNuc3ZxZGmNmIwZA==p" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/fares-adda-715790347?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.tiktok.com/@faresaddadev?_t=ZN-8t93OIWPJ3u&_r=1" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.github.com/faresadda" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+        </div>
+
+        <div class="aboutme" id="aboutme">
+            <h2>About me</h2>
+
+            <div class="item">
+                <h3>Name</h3>
+                <p>Fares Adda</p>
+            </div>
+
+            <div class="item">
+                <h3>Age</h3>
+                <p>23 years old</p>
+            </div>
+
+            <div class="item">
+                <h3>Grade</h3>
+                <p>Automation and Control<br>System Engineering</p>
+            </div>
+
+            <div class="item">
+                <h3>Specialization</h3>
+                <p>Front-End Developer</p>
+            </div>
+
+            <div class="item">
+                <h3>Email</h3>
+                <p>faresaddadev@gmail.com</p>
+            </div>
+
+            <div class="item">
+                <h3>Phone</h3>
+                <p>+213560869608</p>
+            </div>
+        </div>
+
+        
+        <div class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="grid">
+            <div class="skill">
+                <div class="skillname">
+                    <p>HTML</p>
+                    <i class="fa-brands fa-html5"></i>
+                </div>
+                <div class="percentage">
+                    <div class="percentagediv">
+                        <div class="html"></div>
+                    </div>
+                    <p>100%</p>
+                </div> 
+            </div>
+
+            <div class="skill">
+                <div class="skillname">
+                    <p>CSS</p>
+                    <i class="fa-brands fa-css3-alt"></i>
+                </div>
+                <div class="percentage">
+                    <div class="percentagediv">
+                        <div class="css"></div>
+                    </div>
+                    <p>100%</p>
+                </div> 
+            </div>
+
+            <div class="skill">
+                <div class="skillname">
+                    <p>JavaScript</p>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <div class="percentage">
+                    <div class="percentagediv">
+                        <div class="js"></div>
+                    </div>
+                    <p>50%</p>
+                </div> 
+            </div>
+
+            <div class="skill">
+                <div class="skillname">
+                    <p>PYTHON</p>
+                    <i class="fa-brands fa-python"></i>
+                </div>
+                <div class="percentage">
+                    <div class="percentagediv">
+                        <div class="python"></div>
+                    </div>
+                    <p>40%</p>
+                </div> 
+            </div>
+
+            <div class="skill">
+                <div class="skillname">
+                    <p>SQL</p>
+                    <i class="fa-solid fa-database"></i>
+                </div>
+                <div class="percentage">
+                    <div class="percentagediv">
+                        <div class="sql"></div>
+                    </div>
+                    <p>40%</p>
+                </div> 
+            </div>
+
+            <div class="skill">
+                <i class="fa-solid fa-c"></i>
+                <div class="percentage">
+                    <div class="percentagediv">
+                        <div class="c"></div>
+                    </div>
+                    <p>40%</p>
+                </div> 
+            </div>
+
+            <div class="skill">
+                    <p>ENGLISH</p>
+                    <div class="percentage">
+                        <div class="percentagediv">
+                            <div class="english"></div>
+                        </div>
+                        <p>50%</p>
+                    </div> 
+            </div>
+
+            <div class="skill">
+                <p>ARABIC</p>
+                <div class="percentage">
+                    <div class="percentagediv">
+                        <div class="arabic"></div>
+                    </div>
+                    <p>100%</p>
+                </div> 
+            </div>
+
+            <div class="skill">
+                <p>FRENCH</p>
+                <div class="percentage">
+                    <div class="percentagediv">
+                        <div class="french"></div>
+                    </div>
+                    <p>50%</p>
+                </div> 
+            </div>
+        </div>
+            
+        </div>
+
+        <div class="projects" id="projects">
+            <h2>Projects</h2>
+            <div class="boxes">
+                <a href="../online store/onlinestore.html" target="_blank"  class="box">
+                    <img src="Design sans titre.png">
+                    <p>Online store made using HTML, CSS and JavaScript</p>
+                </a>
+
+                <a href="../todo app/todoapp.html" target="_blank" class="box">
+                    <img src="todoapp.PNG">
+                    <p>Todo app made using HTML, CSS and JavaScript</p>
+                </a>
+
+                <a href="../cruds/cruds.html" target="_blank" class="box">
+                    <img src="cruds.PNG">
+                    <p>Cruds made using HTML, CSS and JavaScript</p>
+                </a>
+
+                <a href="../xogame/xogame.html" target="_blank" class="box">
+                    <img src="xo.PNG">
+                    <p>XO Game made using HTML, CSS and JavaScript</p>
+                </a>
+
+                <a href="../calculator/calc.html" target="_blank" class="box">
+                    <img src="calc.PNG">
+                    <p>Calcolator made using HTML, CSS and JavaScript</p>
+                </a>
+            </div>
+            
+        </div>
+        <i class="fa-solid fa-caret-down" id="down"></i>
+
+        <i class="fa-solid fa-caret-up" id="up"></i>
+
+        <div class="contact" id="contact">
+            <h2>Contact us</h2>
+            <div class="send">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea rows="10" placeholder="Send your feedback"></textarea>
+                <button type="submit">Send</button>
+            </div>
+
+            <div class="info">
+                <a href="mailto:faresadda2001off@gmail.com"><p>faresaddadev@gmail.com<i class="fa-solid fa-envelope"></i></p></a>
+                <a href="tel:+213560869608"><p>+213560869608<i class="fa-solid fa-phone"></i></p></a>
+            
+            
+                <div class="smedia">
+                    <a href="https://www.facebook.com/profile.php?id=61571967693139" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/faresaddadev?igsh=MXNuc3ZxZGmNmIwZA==p" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/fares-adda-715790347?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.tiktok.com/@faresaddadev?_t=ZN-8t93OIWPJ3u&_r=1" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.github.com/faresadda" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <p class="copy">&copy;2025 FARES ADDA. ALL RIGHTS RESERVED</p>
+    </div>
+    
+
+
+
+
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="portfolio.js"></script>
+</body>
+</html>
